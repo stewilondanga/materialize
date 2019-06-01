@@ -86,7 +86,7 @@ body {
   }
 }
 
-/*.signup__button button {
+.signup__button button {
   background: transparent;
   color: $form-button-color;
   border: 1px solid $form-button-color;
@@ -96,7 +96,7 @@ body {
   cursor: pointer;
 }
 
-.containers {
+/*.containers {
   width: 520px;
   margin: 20px auto;
 }
