@@ -79,7 +79,7 @@ body {
     position: absolute;
     top: 0.5rem;
     left: 0;
-    color: $form-label-color;
+    color: #00D6D6;
     -webkit-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
     z-index: -1;
