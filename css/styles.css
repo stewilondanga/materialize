@@ -27,7 +27,6 @@ body {
   height: 1.5em;
 }
 
-/*
 .form {
   width: 100%;
   max-width: 450px;
@@ -44,6 +43,7 @@ body {
   }
 }
 
+/*
 .signup__field {
   width: 100%;
   position: relative;
