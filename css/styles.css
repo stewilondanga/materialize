@@ -43,7 +43,6 @@ body {
   color: #00D6D6;
 }
 
-/*
 .signup__field {
   width: 100%;
   position: relative;
@@ -64,18 +63,19 @@ body {
       outline: none;
       border-color: inherit;
       -webkit-box-shadow: none;
-              box-shadow: none;
+      box-shadow: none;
     }
 
-    &:focus ~ .label,
-    &:valid ~ .label {
+    &:focus~.label,
+    &:valid~.label {
       top: -1.1rem;
       left: -8px;
       -webkit-transform: scale(0.8);
-              transform: scale(0.8);
+      transform: scale(0.8);
     }
-}
+  }
 
+  /*
 .label {
     position: absolute;
     top: 0.5rem;
