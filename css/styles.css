@@ -47,43 +47,45 @@ body {
   width: 100%;
   position: relative;
   margin-bottom: 2rem;
+}
 
-  .input-field {
-    background: transparent;
-    border: 0;
-    border-bottom: 1px solid #00D6D6;
-    border-radius: 0;
-    color: #00D6D6;
-    outline: none;
-    display: block;
-    width: 100%;
-    padding: 0.5rem 1rem 0.5rem 0;
+.input-field {
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid #00D6D6;
+  border-radius: 0;
+  color: #00D6D6;
+  outline: none;
+  display: block;
+  width: 100%;
+  padding: 0.5rem 1rem 0.5rem 0;
+}
 
-    &:focus {
-      outline: none;
-      border-color: inherit;
-      -webkit-box-shadow: none;
-      box-shadow: none;
-    }
+&:focus {
+  outline: none;
+  border-color: inherit;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
 
-    &:focus~.label,
-    &:valid~.label {
-      top: -1.1rem;
-      left: -8px;
-      -webkit-transform: scale(0.8);
-      transform: scale(0.8);
-    }
-  }
+&:focus~.label,
+&:valid~.label {
+  top: -1.1rem;
+  left: -8px;
+  -webkit-transform: scale(0.8);
+  transform: scale(0.8);
+}
 
-  .label {
-    position: absolute;
-    top: 0.5rem;
-    left: 0;
-    color: #00D6D6;
-    -webkit-transition: all 0.5s ease-in-out;
-    transition: all 0.5s ease-in-out;
-    z-index: -1;
-  }
+
+.label {
+  position: absolute;
+  top: 0.5rem;
+  left: 0;
+  color: #00D6D6;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  z-index: -1;
+}
 }
 
 .signup__button button {
