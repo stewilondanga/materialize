@@ -2,6 +2,16 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: $background-color;
+  font-family: 'Lato', sans-serif;
+  font-size: 0.8rem;
+
+  @media (min-width: 768px) {
+    font-size: 1rem;
+  }
+}
+
 /*body {
   text-align: center;
   font-family: courier;
@@ -25,15 +35,6 @@
   height: 1.5em;
 }
 
-body {
-  background-color: $background-color;
-  font-family: 'Lato', sans-serif;
-  font-size: 0.8rem;
-
-  @media (min-width: 768px) {
-    font-size: 1rem;
-  }
-}
 
 .form {
   width: 100%;
