@@ -76,7 +76,6 @@ body {
   transform: scale(0.8);
 }
 
-
 .label {
   position: absolute;
   top: 0.5rem;
@@ -85,7 +84,6 @@ body {
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
   z-index: -1;
-}
 }
 
 .signup__button button {
