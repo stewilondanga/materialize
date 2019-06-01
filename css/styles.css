@@ -51,7 +51,7 @@ body {
   .input-field {
     background: transparent;
     border: 0;
-    border-bottom: 1px solid $form-line-color;
+    border-bottom: 1px solid #00D6D6;
     border-radius: 0;
     color: $form-input-color;
     outline: none;
