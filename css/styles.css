@@ -53,7 +53,7 @@ body {
     border: 0;
     border-bottom: 1px solid #00D6D6;
     border-radius: 0;
-    color: $form-input-color;
+    color: #00D6D6;
     outline: none;
     display: block;
     width: 100%;
